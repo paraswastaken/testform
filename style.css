@@ -16,3 +16,7 @@ body {
 label, input {
     display: block;
 }
+
+form>div {
+    display: flex;
+}
