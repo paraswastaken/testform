@@ -20,3 +20,7 @@ label, input {
 form>div {
     display: flex;
 }
+
+.form {
+    padding: 0 0 0 4rem;
+}

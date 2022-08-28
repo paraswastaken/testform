@@ -14,34 +14,47 @@
         </div>
         <div class="mainContent">
             <div class="textcont">
-
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i>
+                <p>You <i>know </i>you want to.</p>
             </div>
             <div class="form">
-                <form action="/temp">
+                <form action="/temp" id="frm">
                     <h2>Let's do this!</h2>
                     <div>
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="firstName">
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="firstName">
+                        </div>
                         
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="lastName">
+                        <div>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="lastName">
+                        </div>
                     </div>
                     <div>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
-                        <label for="ph_no">PHONE NUMBER</label>
-                        <input type="text" id="ph_no" name="phNumber">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="ph_no">PHONE NUMBER</label>
+                            <input type="text" id="ph_no" name="phNumber">
+                        </div>
                     </div>
                     <div>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
-                        <label for="confirm_pass">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_pass" name="confirmPass">
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <label for="confirm_pass">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_pass" name="confirmPass">
+                        </div>
                     </div>
                 </form>
             </div>
             <div>
-                <button type="submit">Create Account</button>
+                <button type="submit" form="frm">Create Account</button>
                 <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
