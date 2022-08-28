@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+html {
+    background-color: rgb(249, 250, 251);
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -10,7 +17,7 @@ body {
 
 .sidebar {
     background-image: url(mountain.jpg);
-    width: 33%;
+    width: 50%;
 }
 
 label, input {
@@ -21,6 +28,52 @@ form>div {
     display: flex;
 }
 
+.textcont {
+    width: 60%;
+    padding: 1rem 8rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
 .form {
-    padding: 0 0 0 4rem;
+    padding: 1rem 0 3rem 8rem;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin: 2rem 9rem;
+}
+
+button {
+    all: unset;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 0.9rem 3rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+button:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    position: relative;
+    bottom: 1px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formRow {
+    margin: 2rem 0;
+}
+
+label {
+    font-size: 0.7rem;
+    font-weight: 600;
 }
